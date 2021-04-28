@@ -1,9 +1,8 @@
 <template>
-  <div class="home">
-    <h1>
-      Playfield per SCSS e Bootstrap.
-    </h1>
-  </div>
+<div>
+    Hello, I am a view
+    <router-view></router-view>
+</div>
 </template>
 
 <script>
@@ -11,9 +10,8 @@
 //import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'Home',
+  name: 'TestViewHome',
   components: {
-    // HelloWorld
   }
 }
 </script>
